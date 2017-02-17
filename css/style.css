@@ -2,6 +2,8 @@ img{
 	max-width: 100%;
 }
 
+/*Grey bar in which Logo will Sit*/
+
 .top-bar{
 	    max-width: 100%;
 }
@@ -12,10 +14,19 @@ img{
 	            background-color: lightgrey;
 }
 	    
+/*Main Hero Image*/
+
 .hero{
 	 height: 500px;
-	 margin-top: 4;
+	 margin-top: 5.5;
 
 	 
+}
+
+.about-image{
+	        height: 500px;
+	        margin-top: 200;
+	        margin-left: 45;
+	        margin-right: 45;
 }
 
