@@ -5,13 +5,17 @@ img{
 /*Grey bar in which Logo will Sit*/
 
 .top-bar{
+	    display: flex;
 	    max-width: 100%;
-}
+	}
 
 .grey-background{
-	            width: 100&;
+	            width: 100%;
 	            height: 100px;
 	            background-color: lightgrey;
+	            position: fixed;
+	            top: 0;
+	            margin-left: -8;
 
 }
 
@@ -30,10 +34,13 @@ img{
 
 .hero{
 	 height: 500px;
-	 margin-top: 5.5;
-
+	 margin-top: 97.5;
+	 margin-right: -8;
+	 margin-left: -8;
 	 
 }
+
+/*About Section*/
 
 .about-image{
 	        height: 500px;
@@ -41,4 +48,28 @@ img{
 	        margin-left: 45;
 	        margin-right: 45;
 }
+
+.text-container{
+               margin-top: 500;
+               margin-left: 43;
+	           font-family: Myriad Web Pro;
+}
+
+
+
+
+
+@media screen and (min-width: 480px){
+
+}
+
+
+
+
+
+             
+             
+
+
+
 
