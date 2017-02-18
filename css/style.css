@@ -16,6 +16,7 @@ img{
 	            position: fixed;
 	            top: 0;
 	            margin-left: -8;
+	            margin-right: -8;
 
 }
 
@@ -49,19 +50,35 @@ img{
 	        margin-right: 45;
 }
 
+.header{
+	   margin-top: 500;
+	   margin-left: 43;
+	   font-family: Myriad Web Pro;
+	   font-size: 1.500em;
+	   color: #F96D6D;
+}
+
+
 .text-container{
-               margin-top: 500;
+               margin-top: 48;
                margin-left: 43;
+               margin-right: 37;
 	           font-family: Myriad Web Pro;
+	           text-align: left;
+	           font-size: 1.125em;
 }
 
 
 
 
 
-@media screen and (min-width: 480px){
+
+@media screen and (min-width: 320px){
 
 }
+
+
+
 
 
 
