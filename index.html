@@ -1,40 +1,48 @@
 <html>
 <head>
-	<title>photography-blog</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>photography-blog</title>
+<link rel="stylesheet" type="text/css" 
+      href="css/html5reset-1.6.1.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Lato" 
+      rel="stylesheet">
 </head>
 <body>
 
-	<!--Fixed Logo Bar-->
+<!--Fixed Logo Bar-->
 
-	<div class="top-bar">
-                <div class="grey-background">
-                            <div class="logo">
-                                        <img src="images/mr-whisper-logo.png">
-                            </div>
-                            
-                </div>
-    </div>
+<div class="top-bar">
+ <div class="grey-background">
+  <div class="logo">
+   <img src="images/mr-whisper-logo.png">
+</div>
+</div>
+</div>
 
-    <!--Responsive Image-->
+<!--Responsive Image-->
 
-    <div class="hero">
-                <img src="images/hero-updated.jpg">
+<div class="hero">
+ <picture>
+<source srcset="images/hero-updated.jpg" media="(min-width: 640px)">
+<source srcset="images/mobile-hero.jpg">
+<img srcset="images/mobile-hero.jpg" alt="Hypebeast hero">
+ </picture>
+</div>
 
+<div class="about-image">
+ <img src="images/about-image.jpg">
+</div>
 
-    </div>
+<!--About Mr Whisper Text-->
+<!--Red header, black text-->
+<!--At 0-640px, the font sizes are:
+    header- 18px // main text- 12px-->
 
-    <div class="about-image">
-                <img src="images/about-image.jpg">
-    </div>
+<div class="header">
+ <h1>Hello</h1>
+</div>
 
-    <!--About Mr Whisper Text-->
-
-    <div class="header">
-                <h1>Hello</h1>
-    </div>
-
-    <div class="text-container">
+<div class="text-container">
 
     <p>My name is Mr Whisper, and I am a London based photographer who re-imagines the cultural sterotypes through the use of imagery.
     I want to showcase my daily travels and discoveries, and show you a glimse into the strange little occurances that happen within everyday life in some of the most amazing cities in the world. The fascinating sense that everybody is just going on about their lives, not really taking a chance to actually think about why we are here in the first place and what our purpose actually is...</p>
@@ -44,7 +52,25 @@
     <p>My main aim with this website is to produce content that I know you'll love as much as I enjoy creating it! Follow me as I take you on a journey throughout the world!
     </div>
 
+<!--This would be the begigning of his 4 best images-->
+<!--These are displayed in a display flex
+    row on the desktop version (640px plus)-->
 
+<div class="first-image">
+ <div class="image-1">
+  <img src="images/dublin-1.jpg">
+</div>            
+</div>
+<div class="shoes">
+ <img src="images/shoes.jpg">
+</div>
+    
+
+    
 
 </body>
 </html>
+
+
+                                 
+

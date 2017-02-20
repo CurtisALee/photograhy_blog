@@ -1,170 +1,101 @@
-img{
-   max-width: 100%;
+
+img {max-width: 100%}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
-/*Grey bar in which Logo will Sit*/
+
+/*This is the minimum width
+  that this webpage will display
+  at // 0 - 320px*/
+
+@media screen and (min-width: 320px){
+
+/*Top section // Logo location*/
 
 .top-bar{
 	    display: flex;
-	    max-width: 100%;
+	    width: 100%;
 }
 
 .grey-background{
-	            width: 100%;
-	            height: 100px;
+	            height: 50px;
 	            background-color: lightgrey;
-	            position: fixed;
-	            top: 0;
-	            margin-left: -8;
-	            margin-right: -8;
-
 }
 
 .logo{
-     width: 20%;
-     height: 80px;
-     float: left;
-     margin-top: 15;
-     margin-bottom: 5;
-     margin-left: 40;
+	 width: 20%;
+	 display: block;
+	 margin: 0 auto;
+	 margin-top: 17px;
+
 }
 
-
-	    
-/*Main Hero Image*/
+/*Responsive hero- Defualt
+  image= 0-320px*/
 
 .hero{
-	 height: 500px;
-	 margin-top: 101;
-	 margin-right: -8;
-	 margin-left: -8;
-	 
+	 width: 100%;
+	 height: 250px;
+	 margin-top: 3.1px;
 }
 
-/*About Section*/
+/*Full page width 
+  0 margins*/
 
 .about-image{
-	        height: 500px;
-	        margin-top: 190;
-	        margin-left: 45;
-	        margin-right: 45;
-}
-
-.header{
-	   margin-top: 470;           /*Had to make separate container*/
-	   margin-left: 43;
-	   font-family: Myriad Web Pro;
-	   font-size: 1.500em;
-	   color: #F96D6D;
-}
-
-
-.text-container{
-               margin-top: -5;          /*This is the main body of text*/
-               margin-left: 43;
-               margin-right: 37;
-	           font-family: Myriad Web Pro;
-	           text-align: left;
-	           font-size: 1.125em;
-}
-
-
-
-
-
-
-
-
-/*Responsive Values=1*/
-
-@media screen and (max-width: 640px){
-
-
-.grey-background{
-	            
-	            width: 100%;
-	            height: 54px;
-}
-
-.hero{
-
-	 margin-top: 50px;
-}
-
-.about-image{
-
+	        width: 100%;
 	        height: 250px;
-	        margin-top: -217px;
-	        margin-left: 20px;
-	        margin-right: 13px;
+	        margin-top: 95px;
 }
 
+/*Separate container-
+  different size/colour*/
+/*Responsive- 
+  18px at 320 width
+  24px at 640+*/
 
 .header{
-
-       font-size: 1.125em;
+	   font-family: 'Lato', sans-serif;
+	   color: #F96D6D;
+	   font-size: 1.125em;
+	   text-align: center;
+	   margin-top: 20px;
 }
 
+/*Responsive-
+  12px at 320 width
+  18px at 640+*/
 
 .text-container{
-	          
-	          font-size: 0.750em;
+	           font-family: 'Lato', sans-serif;
+	           font-size: 0.750em;
+	           text-align: left;
+	           margin-top: 9px;
+	           margin-left: 10px;
+	           margin-right: 10px;
+	           line-height: 1.5;
 }
 
+/*Gallery Beggining*/
 
-
-
-
-
-
-
-/*Responsive Values=2*/
-
-@media screen and (max-width: 500px){
-
-
-.grey-background{
-	            
-	            height: 43px;
+.image-1{
+	    height: 250px;
+	    margin-top: 45px;-
 }
 
-.hero{
-
-	 margin-top: 37.5px;
+.shoes{
+	  height: 250px;
+	  margin-top: 45px;
 }
 
+	   
 
-.header{
-
-       font-size: 1.125em;
-   }
-
-
-.text-container{
-	          
-	          font-size: 0.750em;
 }
-
-
-
-
-	        
-    
-               
-    
-    
-
-
-
-
-
-
-
-
-
-             
-             
-
 
 
 
