@@ -75,7 +75,7 @@ html {
 	           font-family: 'Lato', sans-serif;
 	           font-size: 0.750em;
 	           text-align: left;
-	           margin-top: 9px;
+	           margin-top: 10px;
 	           margin-left: 10px;
 	           margin-right: 10px;
 	           line-height: 1.5;
@@ -88,10 +88,55 @@ html {
 	    margin-top: 45px;-
 }
 
+.lonely-dublin-header{
+	                 font-family: 'Lato', sans-serif;
+	                 color: #F96D6D;
+	                 font-size: 1.125em;
+	                 text-align: center;
+	                 margin-top: 20px;
+}
+
 .shoes{
 	  height: 250px;
-	  margin-top: 45px;
+	  margin-top: 20px;
 }
+
+.hypebeast-header{
+	             font-family: 'Lato', sans-serif;
+	             color: #F96D6D;
+	             font-size: 1.125em;
+	             text-align: center;
+	             margin-top: 20px;
+}
+
+.vw-image{
+	     height: 250px;
+	     margin-top: 20px;
+}
+
+.vw-header{
+	      font-family: 'Lato', sans-serif;
+	      color: #F96D6D;
+	      font-size: 1.125em;
+	      text-align: center;
+	      margin-top: 20px;
+}
+
+.mobile-image{
+	         height: 250px;
+	         margin-top: 20px;
+}
+
+.mobile-header{
+	          font-family: 'Lato', sans-serif;
+	          color: #F96D6D;
+	          font-size: 1.125em;
+	          text-align: center;
+	          margin-top: 20px;
+}
+
+
+
 
 	   
 
