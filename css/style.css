@@ -98,11 +98,7 @@ height: auto; display: block;}
 
 	}
 
-<<<<<<< HEAD
-=======
-	
 
->>>>>>> refs/remotes/origin/master
 	p{
 		font-size: 1.125em;
 		margin-left: 22px; 
@@ -140,14 +136,12 @@ height: auto; display: block;}
 	.child:nth-child(4) {
 		margin-right: 0;
 	}
-<<<<<<< HEAD
+
 
 	h1{
 		text-align: left;
 		margin-left: 22px;
 	}
-=======
->>>>>>> refs/remotes/origin/master
-}
+
 
 
